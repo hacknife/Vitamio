@@ -1,0 +1,1 @@
+include ':app', ':vitamio', ':vitamio-arm64_v8a', ':vitamio-armeabi_v7a', ':vitamio-x86'
