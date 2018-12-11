@@ -14,6 +14,6 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation project(':vitamio')
-    implementation project(':vitamio-armeabi_v7a')
+    implementation project(':vitamio-java')
+    implementation project(':vitamio-armv7a')
 }

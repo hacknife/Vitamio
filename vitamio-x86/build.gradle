@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -17,5 +17,11 @@ android {
 
 }
 
-dependencies {
+publish {
+    userOrg = 'hacknife'
+    groupId = 'com.hacknife.vitamio'
+    artifactId = 'vitamio-x86'
+    publishVersion = '1.0.0'
+    desc = ''
+    website = 'https://github.com/hacknife/vitamio'
 }
